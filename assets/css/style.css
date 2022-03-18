@@ -1,0 +1,70 @@
+body {
+  cursor: default;
+  font-family: 'Varela Round', sans-serif;
+}
+
+main {
+  padding: 6rem 0 4rem 0 !important;
+}
+
+section {
+  padding-top: 6.5rem !important;
+  padding-bottom: 6.5rem !important;
+}
+
+.bg-primary { 
+  background-color: #ffdab9 !important;
+}
+
+.bg-pink {
+  background-color: #f8ad9d !important;
+}
+
+.cover-image {
+  margin-top: 1rem;
+  margin-bottom: -91px;
+}
+
+.btn {
+  outline: none !important;
+  box-shadow:  none !important;
+}
+
+.btn-primary {
+  background-color: #f4978e !important;
+  border: 1px solid #f08080 !important;
+}
+
+.btn-primary:hover {
+  background-color: #f8ad9d !important;
+}
+
+.btn-outline-primary {
+  color: #f08080 !important;
+  border: 1px solid #f08080 !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #f8ad9d !important;
+}
+
+textarea:focus, input:focus{
+  outline: none !important;
+  box-shadow: 0 0 0 0.1rem #f8ad9d !important;
+}
+
+.img-tips {
+  height: 100px;
+}
+
+.img-blog{
+  max-width: 200px; 
+  height: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .about-me {
+    text-align: center !important;
+  }
+}
